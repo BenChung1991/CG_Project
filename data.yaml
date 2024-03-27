@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/CG_Project/data/train/images
+val: /content/drive/MyDrive/CG_Project/data/valid/images
+test: /content/drive/MyDrive/CG_Project/data/test/images
+
+nc: 1
+names: ['RedLineV']
