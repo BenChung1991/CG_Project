@@ -14,7 +14,7 @@ classNames = ['RedLineV','fair']
  
 prev_frame_time = 0
 new_frame_time = 0
- 
+ #123
 while True:
     new_frame_time = time.time()
     success, img = cap.read()
