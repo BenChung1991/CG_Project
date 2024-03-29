@@ -8,13 +8,13 @@ cap = cv2.VideoCapture("Testvideo.mp4")
 cap.set(3, 640) #3 means width
 cap.set(4, 640) #4 means height
 
-model = YOLO("best.pt")
+model = YOLO("bestm2.pt")
  
-classNames = ['RedLineV','fair']
+classNames = ['Legal', 'RedLineV']
  
 prev_frame_time = 0
 new_frame_time = 0
- #123
+ 
 while True:
     new_frame_time = time.time()
     success, img = cap.read()
